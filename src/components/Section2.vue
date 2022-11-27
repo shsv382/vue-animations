@@ -1,6 +1,6 @@
 <template>
     <section ref="section2" class="section2">
-      <h1 class="section2__title" :style="{'width': `calc(85% - ${offset}px)`}">
+      <h1 class="section2__title" :style="{'width': `calc(85% - ${offset}px)`, 'transform': `translate3d(0, ${offset}px, 0)`}">
         <span :style="{'transform': `translate3d(${(offset / 3 < 67) ? offset / 3 : 67}px, 0, 0)`}">Play</span>
         <div class="section2__img-container">
             <img class="section2__img" 
